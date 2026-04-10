@@ -14,9 +14,9 @@ import os
 load_dotenv()
 
 # SMPT Configuration
-sender_email = "sendemail@gmail.com"
-receiver_email = "receiveremail@gmail.com"
-password = os.getenv("PASSWORD")
+sender_email = os.getenv("SENDER_EMAIL")
+receiver_email = os.getenv("RECEIVER_EMAIL")
+password = os.getenv("EMAIL_PASS")
 
 # Load Music
 pygame.mixer.init()
