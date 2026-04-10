@@ -2,6 +2,8 @@
 
 Sentry Vision is a computer vision project that uses **YOLOv8**, **OpenCV**, and **Pygame** to detect objects in real-time through a webcam and trigger alerts when specific objects are identified.
 
+![SentryVisionDemo](https://github.com/KrishBharadwaj5678/SentryVision/blob/main/SentryVisionDemo.jpg)
+
 ## 🚀 Features
 
 | Feature                       | Description                                                |
