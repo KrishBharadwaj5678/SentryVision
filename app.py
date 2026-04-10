@@ -1,7 +1,6 @@
 from ultralytics import YOLO
 import cv2
 import pygame
-import time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
