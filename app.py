@@ -14,6 +14,7 @@ model = YOLO("yolov8n.pt")
 cap = cv2.VideoCapture(0)
 
 sound_played = False
+target_object = "cell phone"
 
 while True:
     ret, frame = cap.read()
@@ -26,7 +27,7 @@ while True:
         class_id = int(box.cls[0])
         name = model.names[class_id]
 
-        if name == "cell phone" and not sound_played:
+        if name == target_object and not sound_played:
             # Capture evidence
             cv2.imwrite(f"detected_{time.time()}.jpg",annotated_frame)
             # Play the sound
