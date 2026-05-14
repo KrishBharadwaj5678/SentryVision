@@ -8,7 +8,7 @@ Sentry Vision is a computer vision project that uses **YOLOv8**, **OpenCV**, and
 
 | Feature                       | Description                                               |
 | ----------------------------- | --------------------------------------------------------- |
-| 🎯 Real-time object detection | Uses YOLOv8 for instant object detection from webcam feed |
+| 🎯 Real-time object detection | Uses YOLOv8 for instant object detection                  |
 | 📷 Live webcam monitoring     | Processes video stream using OpenCV                       |
 | 🔔 Audio alert system         | Plays sound when target object is detected                |
 | 🖼️ Evidence capture          | Saves annotated images automatically                      |
@@ -31,43 +31,36 @@ Sentry Vision is a computer vision project that uses **YOLOv8**, **OpenCV**, and
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
-```bash
+```bash id="j8n1v2"
 git clone https://github.com/KrishBharadwaj5678/SentryVision.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash id="g4p9kx"
 cd SentryVision
 ```
 
-### 2. Set up environment variables (important)
+### 3️⃣ Set up environment variables
 
 Create a `.env` file in the project root directory:
 
-```env
+```env id="w2f7mn"
 SENDER_EMAIL=sender email
 RECEIVER_EMAIL=receiver email
 EMAIL_PASS=your app password
 ```
 
-### 3. Install dependencies
+### 4️⃣ Install dependencies
 
-```bash
+```bash id="u6q3za"
 pip install -r requirements.txt
 ```
 
-### 4. Run the project
+### 5️⃣ Run the project
 
-```bash
+```bash id="r5c1de"
 python app.py
 ```
-
----
-
-## Contributing 🤝
-
-Want to contribute? Here's how:
-
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch (`git checkout -b feature-name`).
-3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
-4. 🚀 Push to your branch (`git push origin feature-name`).
-5. 🔄 Submit a pull request to merge into the main branch.
